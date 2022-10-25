@@ -1,0 +1,108 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .packs{
+    min-height: 300px;
+    width: 800px;
+    display: flex;
+    border-radius: 0.4rem;
+    overflow: hidden;
+  
+  }
+  .packitem{
+    padding: 40px;
+     /* display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px; */
+  }
+  
+  
+  .packitem p{
+    margin-bottom: 80px;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family:"Lexend Deca";
+    font-size: 15px;
+  
+  }
+  
+  .packitem h2{
+    margin-block: 40px;
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display";
+  }
+  
+  .packitem button{
+   background-color: hsl(0, 0%, 95%);
+   padding: 14px 30px;
+   border-radius: 2rem;
+  }
+  
+  .packitem button:hover{
+    background-color: transparent;
+    border: 2px solid hsl(0, 0%, 95%);
+    color:hsl(0, 0%, 95%) ;
+    cursor: pointer;
+    padding: 12px 28px;
+    transition: all 0.2s ease;
+  }
+  
+  .A button{
+  color: hsl(31, 77%, 52%);;
+  }
+  
+  .B button{
+    color: hsl(184, 100%, 22%);;
+  }
+  
+  .C button{
+    color:hsl(179, 100%, 13%);
+  }
+  
+  
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .A{
+    background-color: hsl(31, 77%, 52%);
+  }
+  .B{
+    background-color:hsl(184, 100%, 22%);
+  }
+  
+  .C{
+    background-color:hsl(179, 100%, 13%);
+  }
+  
+  @media screen and (max-width: 375px){
+  
+    .packs{
+      flex-direction: column;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
