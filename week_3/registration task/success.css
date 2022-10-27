@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  h1, h2, p {
+      color:#003500;
+      font-size:xx-large;
+      text-align: center;
+      font-weight: bolder;
+  }
+  
+  .login a:hover{
+    font-family: sans-serif;
+    font-weight:400px;
+   
+    border: 1px solid;
+    cursor: pointer;
+    color:red;
+    }
+    
+    
+  

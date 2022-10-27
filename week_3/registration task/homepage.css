@@ -1,0 +1,37 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    width: 100%;
+    height: 70%;
+  background-image: url("mypix.jpg") ;
+}
+a{
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+    nav{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        margin:auto;
+        background-color: rgb(147, 147, 207, 0.5);
+       font-weight: bolder;
+      text-transform: uppercase;
+        
+}
+
+a:hover{
+    background-color: #db1717;
+    color: red;
+
+}
+
+
+
+
+

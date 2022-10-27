@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  .container{
+    border: 1px solid #004000;
+    background-color: #9bf9b0;
+    width: 70%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-size: cover;
+  }
+  
+  input{
+    width:70%;
+    border: none;
+    padding:10px;
+    background-color:#dfe0de;
+    margin-top:10px;
+    margin-bottom:5px;
+  }
+  input:focus{
+    background-color:grey;
+    opacity: 0.7;
+  }
+   .container a:hover{
+    cursor: pointer;
+    color: green;
+    background-color:#590000;
+    border-radius:20px;
+    padding: 5px;
+    width:50%;
+    transition: 0.3s ease;
+  }
+  .container h1{
+    text-transform:uppercase;
+    font-family:helvetica;
+    font-weight:800px;
+  }
+  
+  .submit{
+    border: 2px solid rgb(10, 105, 10);
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+
+  }
+
+  .container p{
+    font-family: helvetica;
+    font-size:30px;
+    font-weight: bold;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+     
+    
+  
